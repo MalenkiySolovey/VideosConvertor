@@ -1,9 +1,9 @@
 ﻿#include <SFML/Graphics.hpp>     
-#include "Headers/Global.h"
-#include "Headers/Rectangle.h"
-#include "Headers/Text.h"
-#include "Headers/Button.h"
-#include "Headers/PathSelect.h"
+#include "../Headers/Global.h"
+#include "../Headers/Rectangle.h"
+#include "../Headers/Text.h"
+#include "../Headers/Button.h"
+#include "../Headers/PathSelect.h"
 #include <stdlib.h>
 
 

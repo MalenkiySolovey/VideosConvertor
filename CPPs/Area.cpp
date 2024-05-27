@@ -1,4 +1,4 @@
-#include "Headers/Area.h"
+#include "../Headers/Area.h"
 
 Area::Area() {};
 Area::Area(sf::RenderWindow* win) { _Window = win; }

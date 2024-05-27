@@ -143,13 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Area.cpp" />
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="ConvertVideos.cpp" />
-    <ClCompile Include="Global.cpp" />
-    <ClCompile Include="PathSelect.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="CPPs\Area.cpp" />
+    <ClCompile Include="CPPs\Button.cpp" />
+    <ClCompile Include="CPPs\ConvertVideos.cpp" />
+    <ClCompile Include="CPPs\Global.cpp" />
+    <ClCompile Include="CPPs\PathSelect.cpp" />
+    <ClCompile Include="CPPs\Rectangle.cpp" />
+    <ClCompile Include="CPPs\Text.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Area.h" />

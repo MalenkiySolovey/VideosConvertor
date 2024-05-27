@@ -1,4 +1,4 @@
-#include "Headers\PathSelect.h"
+#include "../Headers\PathSelect.h"
 #include <Windows.h>
 #include <shlobj_core.h>
 

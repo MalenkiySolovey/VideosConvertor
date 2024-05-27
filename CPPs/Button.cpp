@@ -1,4 +1,4 @@
-#include "Headers\Button.h"
+#include "../Headers\Button.h"
 
 Button     Button::operator =                 (Button btn) {
     _Window           = btn._Window           ;

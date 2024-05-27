@@ -1,4 +1,4 @@
-#include "Headers\Global.h" 
+#include "../Headers\Global.h" 
 
 sf::Color RGB(_ui8 red, _ui8 green, _ui8 blue, _ui8 alpha) { return sf::Color(red, green, blue, alpha); }
 

@@ -1,4 +1,4 @@
-#include "Headers/Rectangle.h"
+#include "../Headers/Rectangle.h"
 
 Rectangle Rectangle::operator =(Rectangle rct) {
     _Window              = rct._Window              ;  

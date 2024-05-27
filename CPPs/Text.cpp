@@ -1,4 +1,4 @@
-#include "Headers\Text.h"
+#include "../Headers\Text.h"
 
 Text        Text::operator =(Text txt) {
     _Window              = txt._Window              ;
