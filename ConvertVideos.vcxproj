@@ -71,10 +71,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)\bin</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)\bin</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -158,6 +158,29 @@
     <ClInclude Include="Headers\PathSelect.h" />
     <ClInclude Include="Headers\Rectangle.h" />
     <ClInclude Include="Headers\Text.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\ConvertVideos.exe" />
+    <None Include="bin\openal32.dll" />
+    <None Include="bin\sfml-audio-2.dll" />
+    <None Include="bin\sfml-audio-d-2.dll" />
+    <None Include="bin\sfml-graphics-2.dll" />
+    <None Include="bin\sfml-graphics-d-2.dll" />
+    <None Include="bin\sfml-network-2.dll" />
+    <None Include="bin\sfml-network-d-2.dll" />
+    <None Include="bin\sfml-system-2.dll" />
+    <None Include="bin\sfml-system-d-2.dll" />
+    <None Include="bin\sfml-window-2.dll" />
+    <None Include="bin\sfml-window-d-2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Files\intelone-mono-font-family-bold.otf" />
+    <Font Include="Files\intelone-mono-font-family-regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Files\PathIn.txt" />
+    <Text Include="Files\PathOut.txt" />
+    <Text Include="Files\Settings.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
